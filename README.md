@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://github.com/SP-XD/SP-XD/blob/main/images/hellocoders_rounded.gif?raw=true" width="50%" alt="Hello Coders"/>
   <br>
-  <h1>Hi, I'm Ahmed Sabry Mahmoud 👋</h1>
+  <h1>Hi, I'm Ahmed  Mahmoud 👋</h1>
   <p><strong>Web Designer | Full-Stack Developer | Creative Thinker</strong></p>
 
   <img src="https://github.com/SP-XD/SP-XD/blob/main/images/dev-working_rounded.gif?raw=true" width="35%" alt="Workspace"/>
