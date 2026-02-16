@@ -6,8 +6,8 @@
 
   <img src="https://github.com/SP-XD/SP-XD/blob/main/images/dev-working_rounded.gif?raw=true" width="35%" alt="Workspace"/>
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR_USERNAME)
 
-<link rel="stylesheet" href="https://www.linkedin.com/feed/">
 
 
 لالا
