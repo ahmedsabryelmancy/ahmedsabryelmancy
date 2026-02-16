@@ -6,7 +6,8 @@
 
   <img src="https://github.com/SP-XD/SP-XD/blob/main/images/dev-working_rounded.gif?raw=true" width="35%" alt="Workspace"/>
   
-<details><a href="https://www.linkedin.com/feed/" target="_blank"></details>
+<a href="https://www.linkedin.com/feed/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Activity%20Feed-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Feed">
 
 
 
