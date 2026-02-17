@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+ <div class="container">
+
+    <div class="title">
+        <p style="font-weight: bold; font-size: 22px;">calc</p>
+        <div class="theme">
+            <p class="text">theme</p>
+        <div class="changeTheme">
+        <p class="numbers">1 2 3</p>
+        <p class="bigCircle"><span  class="smallCircle"></span></p> 
+    </div>
+    </div>
+    </div>
+
+
+
+<div class="output">
+    <p></p>
+</div>
+<div  class="input">
+   <div class="row">
+<button onclick="calc.outputText(this)">7</button>
+<button onclick="calc.outputText(this)">8</button>
+<button onclick="calc.outputText(this)">9</button>
+<button onclick="calc.del()" class="del">DEL</button>
+</div>
+   <div class="row">
+<button onclick="calc.outputText(this)">4</button>
+<button onclick="calc.outputText(this)">5</button>
+<button onclick="calc.outputText(this)">6</button>
+<button onclick="calc.operators(this)">+</button>
+</div>
+
+   <div class="row">
+<button onclick="calc.outputText(this)">1</button>
+<button onclick="calc.outputText(this)">2</button>
+<button onclick="calc.outputText(this)">3</button>
+<button onclick="calc.operators(this)">-</button>
+</div>
+   <div class="row">
+<button onclick="calc.outputText(this)">.</button>
+<button onclick="calc.outputText(this)">0</button>
+<button onclick="calc.operators(this)">/</button>
+<button onclick="calc.operators(this)">*</button>
+</div>
+
+   <div class="row end">
+<button onclick="calc.reset()">Reset</button>
+<button onclick="calc.get_result()">=</button>
+
+   </div>
+
+</div>
+
+ </div>  
+   
+  
+
+<script src="chalenge.js">
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+ :root{
+ 
+--main: hsl(222, 26%, 31%);
+ --ddd : hsl(223, 31%, 20%);
+--ddp : hsl(224, 36%, 15%);
+ --Navykeybackground : hsl(225, 21%, 49%);
+ --Navy800keyshadow : hsl(224, 28%, 35%);
+--Red600keybackgroundtoggle: hsl(6, 63%, 50%);
+--Red800keyshadow: hsl(6, 70%, 34%);
+--Gray200keybackground: hsl(0, 0%, 90%);
+--Grayorange400keyshadow: hsl(28, 16%, 65%);
+--Navy750 : hsl(221, 14%, 31%);
+--White : hsl(0, 100%, 100%);
+--Gray200mainbackground: hsl(0, 0%, 90%);
+--Gray300togglebackgroundkeypadbackground: hsl(0, 5%, 81%);
+--screenbackground: hsl(0, 0%, 93%);
+--Bue500keybackground: hsl(185, 42%, 37%);
+--Blue600keyshadow: hsl(185, 58%, 25%);
+--Orange700keybackgroundtoggle: hsl(25, 98%, 40%);
+--Orange800keyshadow: hsl(25, 99%, 27%);
+--Grey200keybackground: hsl(0, 0%, 90%);
+--Greyorange450keyshadow: hsl(35, 11%, 61%);
+--Gray900: hsl(60, 10%, 19%);
+--Whitetext: hsl(0, 100%, 100%);
+--Purple950mainbackground: hsl(268, 75%, 9%);
+--Purple900togglebackgroundkeypadbackgroundscreenbackground: hsl(268, 71%, 12%);
+--Purple800keybackground: hsl(281, 89%, 26%);
+--Purple400keyshadow: hsl(285, 91%, 52%);
+--Cyan500keybackgroundtoggle: hsl(176, 100%, 44%);
+--Cyan400keyshadow: hsl(177, 92%, 70%);
+--Purple850keybackground: hsl(268, 47%, 21%);
+--Purple750keyshadow: hsl(290, 70%, 36%);
+--Yellow300: hsl(52, 100%, 62%);
+--Blue950: hsl(198, 20%, 13%);
+--Whitetext: hsl(0, 100%, 100%);
+
+
+ }
+
+ *{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+
+
+
+
+ }
+  
+body{
+width: 100%;
+min-height: 100vh;
+background: var(--main);
+display: flex;
+justify-content: center;
+margin-top: 30px;
+ }
+ body .container{
+
+width: 30%;
+ }
+body .container .title{
+display: flex;
+justify-content: space-between;
+
+color: var(--White);
+
+}
+
+body .container .title .theme{
+
+display: flex;
+justify-content: space-between;
+
+align-items: center;
+}
+
+body .container .title .theme .text{
+font-size: 13px;
+font-variant: small-caps;
+margin: 0px 15px;
+
+}
+body .container .title .theme .numbers{
+
+font-size: 14px;
+letter-spacing: 8px;
+margin: 5px;
+
+}
+body .container .title .theme .changeTheme .bigCircle{
+
+padding: 1px 15px;
+background-color: var(--ddd);
+border-radius: 10px;
+
+
+
+}
+body .container .title .theme .changeTheme .smallCircle{
+padding: 0.6px 10px ;
+background-color: var(--Red600keybackgroundtoggle);
+border-radius: 50%;
+position: relative;
+left: -15px;
+cursor: pointer;
+transition: 0.5s;
+
+}
+body .container .output{
+    width: 100%;
+    height: 10%;
+    background-color: var(--ddp);
+    border-radius: 10px;
+    margin: 30px 0px;
+    padding: 20px ;
+    text-align: right;
+    color: aliceblue;
+}
+body .container .output p{
+font-size: 28px;
+font-weight: bold;
+
+
+}
+body .container .input{
+
+background-color: var(--ddd);
+padding: 15px;
+border-radius: 8px;
+text-align: center;
+
+
+}
+body .container .input button{
+width: 24%;
+height: 50%;
+margin: 8px 0px;
+background-color:var(--Gray200keybackground) ;
+font-size: 20px;
+font-weight: bold;
+border-radius: 10px;
+padding: 10px;
+
+}
+body .container .input .end button{
+
+width: 49%;
+
+
+}
+body .container .input .end :first-child{
+    background-color: var( --Navykeybackground);
+    color: aliceblue;
+}
+body .container .input .end :last-child{
+
+background-color: var(--Red600keybackgroundtoggle);
+color: aliceblue;
+
+}
+body .container .input .del{
+
+color: aliceblue;
+background-color:var(--Navykeybackground) ;
+
+
+}
